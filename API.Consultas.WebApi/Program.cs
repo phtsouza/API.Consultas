@@ -1,3 +1,4 @@
+//using API.Consultas.Application;
 using API.Consultas.WebApi;
 
 public class Program
@@ -14,6 +15,8 @@ public class Program
         builder.Services.AddSwaggerGen();
 
         builder.Services.AddAutoMapper(typeof(WebApiMapperProfile));
+
+       // builder.Services.AddAplication();
 
         //builder.Services.AddDbRepositoryAdapter(
         //new DbRepositoryAdapterConfiguration()

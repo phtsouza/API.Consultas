@@ -21,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\API.Consultas.Application\API.Consultas.Application.csproj" />
+    <ProjectReference Include="..\API.Consultas.DbRepositoryAdapter\API.Consultas.DbRepositoryAdapter.csproj" />
     <ProjectReference Include="..\API.Consultas.Domain\API.Consultas.Domain.csproj" />
   </ItemGroup>
 

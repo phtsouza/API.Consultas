@@ -24,8 +24,8 @@ public class Program
         //builder.Services.AddApplication(builder.Configuration.GetSection("ApplicationConfiguration")
         //       .Get<ApplicationConfiguration>());
 
-        var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-        builder.WebHost.UseUrls($"http://*:{port}/");
+        //var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+        //builder.WebHost.UseUrls($"http://*:{port}/");
 
         var app = builder.Build();
 

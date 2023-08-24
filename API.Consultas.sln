@@ -9,13 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{E0B93D1A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D7E1F015-255C-4F67-B13C-777516E96E17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Consultas.WebApi", "API.Consultas.WebApi\API.Consultas.WebApi.csproj", "{06B0ABDC-B582-457F-B567-72E8B67EA12D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consultas.WebApi", "API.Consultas.WebApi\API.Consultas.WebApi.csproj", "{06B0ABDC-B582-457F-B567-72E8B67EA12D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Consultas.Domain", "API.Consultas.Domain\API.Consultas.Domain.csproj", "{9215835D-C367-47D9-AC5E-1CD47F29F45A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consultas.Application", "API.Consultas.Application\API.Consultas.Application.csproj", "{82E22572-D1A1-44EC-9920-4B898A90AEC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Consultas.Tests", "API.Consultas.Tests\API.Consultas.Tests.csproj", "{94A9C486-D3DA-44F3-AFBE-D32E3AE65CEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consultas.Domain", "API.Consultas.Domain\API.Consultas.Domain.csproj", "{9215835D-C367-47D9-AC5E-1CD47F29F45A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Consultas.DbRepositoryAdapter", "API.Consultas.DbRepositoryAdapter\API.Consultas.DbRepositoryAdapter.csproj", "{C04BA8AA-72BD-43A5-9AF5-1D214A207162}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consultas.Tests", "API.Consultas.Tests\API.Consultas.Tests.csproj", "{94A9C486-D3DA-44F3-AFBE-D32E3AE65CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consultas.DbRepositoryAdapter", "API.Consultas.DbRepositoryAdapter\API.Consultas.DbRepositoryAdapter.csproj", "{C04BA8AA-72BD-43A5-9AF5-1D214A207162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{06B0ABDC-B582-457F-B567-72E8B67EA12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06B0ABDC-B582-457F-B567-72E8B67EA12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B0ABDC-B582-457F-B567-72E8B67EA12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E22572-D1A1-44EC-9920-4B898A90AEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E22572-D1A1-44EC-9920-4B898A90AEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E22572-D1A1-44EC-9920-4B898A90AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E22572-D1A1-44EC-9920-4B898A90AEC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9215835D-C367-47D9-AC5E-1CD47F29F45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9215835D-C367-47D9-AC5E-1CD47F29F45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9215835D-C367-47D9-AC5E-1CD47F29F45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +51,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{06B0ABDC-B582-457F-B567-72E8B67EA12D} = {D7E1F015-255C-4F67-B13C-777516E96E17}
+		{82E22572-D1A1-44EC-9920-4B898A90AEC3} = {78A9F0C2-DB81-479F-A19F-CF73F12BD613}
 		{9215835D-C367-47D9-AC5E-1CD47F29F45A} = {78A9F0C2-DB81-479F-A19F-CF73F12BD613}
 		{94A9C486-D3DA-44F3-AFBE-D32E3AE65CEC} = {78A9F0C2-DB81-479F-A19F-CF73F12BD613}
 		{C04BA8AA-72BD-43A5-9AF5-1D214A207162} = {E0B93D1A-EFBA-40E4-A585-B92910E9321F}
